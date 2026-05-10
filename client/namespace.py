@@ -1,8 +1,8 @@
 import configparser
 import socketio
-import dummy_wincontrol as wincontrol
+import wincontrol
 import asyncio
-from dummy_wincontrol import is_blocked
+from wincontrol import is_blocked
 
 config = configparser.ConfigParser()
 config.read('res/config.ini')

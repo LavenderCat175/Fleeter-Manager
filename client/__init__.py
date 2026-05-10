@@ -5,7 +5,7 @@ import engineio.exceptions
 import socketio
 from socketio.exceptions import BadNamespaceError
 from pathlib import Path
-from dummy_wincontrol import is_blocked
+from wincontrol import is_blocked
 from client.namespace import FleetNamespace
 
 config = configparser.ConfigParser()
